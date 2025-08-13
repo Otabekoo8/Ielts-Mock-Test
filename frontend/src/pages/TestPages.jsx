@@ -2,7 +2,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Navbar from "../components/Navbar";
 import QuestionCard from "../components/QuestionCard";
 
-const API_BASE = "http://localhost:4000";
+
+const API_BASE = "https://backend-ielts.vercel.app";
 
 function shuffle(arr) {
   const a = [...arr];
